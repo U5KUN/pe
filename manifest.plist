@@ -33,7 +33,7 @@
                 <key>bundle-version</key>
                 <string>9.20.0</string>
                 <key>kind</key>
-                <string>game</string>
+                <string>software</string>
                 <key>title</key>
                 <string>脱獄ごっこ</string>
             </dict>
