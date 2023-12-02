@@ -34,6 +34,8 @@
                 <string>9.20.0</string>
                 <key>kind</key>
                 <string>software</string>
+                <key>platform-identifier</key>
+                <string>com.apple.platform.iphoneos</string>
                 <key>title</key>
                 <string>脱獄ごっこ</string>
             </dict>
