@@ -1,8 +1,10 @@
 const os = document.getElementById("os");
 const selectOS = document.getElementById("selectOS");
+const usa = navigator.userAgent;
+const ios = parseFloat(('' + (/CPU.*OS ([0-9_]{1,5})|(CPU like).*AppleWebKit.*Mobile/i.exec(usa) || [0, ''])[1]).replace('undefined', '3_2').replace('_', '.').replace('_', ''));
 const detectedOS = detectOS();
 function detectOS() {
-    var ua = window.navigator.userAgent.toLowerCase();
+    var ua = usa.toLowerCase();
     let OS;
     if (ua.indexOf("iphone") !== -1 || ua.indexOf("ipad") !== -1) {
         OS = "iOS/iPadOS";
@@ -24,6 +26,7 @@ function showContent(OS) {
     document.getElementById(OS).style.display = "block";
     selectOS.value = OS;
 }
+if (ios && ios <= 17.0) { document.getElementById("ts").style.display = "block"; }
 os.innerText = detectedOS;
 showContent(detectedOS);
 
