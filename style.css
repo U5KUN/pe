@@ -57,15 +57,13 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    display: inline-block;
-    min-width: 120px;
-    min-height: 20px;
-    text-align: center;
-    padding: 10px;
-    line-height: 20px;
-    box-sizing: border-box;
     background-color: rgb(90, 230, 255);
     transition: .5s;
+}
+
+nav ul li a:active{
+    background-color: rgb(70, 181, 200);
+    transition: .2;
 }
 
 nav ul li a img {
