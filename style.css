@@ -29,9 +29,10 @@ header h1 {
 }
 
 header h1 img {
-    height: 1em;
+    height: 1.5em;
     width: auto;
-    vertical-align: -0.1em;
+    vertical-align: -0.3em;
+    border-radius: 15.6%;
     /* text-bottomに変更してより正確に揃える */
 }
 
