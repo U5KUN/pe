@@ -1,15 +1,15 @@
-# インストールページは[こちら](https://u5kun.github.io/playingescape/)
+# 必ず[Discordサーバー](https://discord.gg/ryDT32jSSz)に参加してください
 
-# インストールの種類
-## ダウンロード
-IPAをダウンロードします。
-## iTunes
-署名済みのIPAがインストールされます。
-## TrollStore
-TrollStoreでインストールされます。※TrollStoreのURLSchemeが有効になっている必要があります。
-# ファイルの種類
-ファイルの種類
-- Nomal(普通)
-- AltStore(AltStore用にApp名がアルファベットになっている)
-- BundleChanged(バンドルIDが変更されていて、他のバージョンがインストールされていてもインストールできる)
-- AltStoreBundleChanged(AltStoreとBundleChangedの両方の変更が加えられている)
+# 脱獄ごっこ復活版
+
+脱獄ごっこ復活版は、2023年11月9日にサービスを終了した脱獄ごっこの非公式な復活版です。
+
+## ダウンロードとインストール
+
+[こちら](https://u5kun.github.io/pe/download/)をご覧ください。
+
+## 注意事項
+
+- 非公式アプリのため、AppStore/GooglePlayからはインストールできません
+- Android版はiOS/iPadOS版とは一緒にプレイできません
+- インストール前に必ず[Discordサーバー](https://discord.gg/ryDT32jSSz)に参加してください
