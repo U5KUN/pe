@@ -63,7 +63,7 @@ nav ul li a:hover {
 
 nav ul li a:active{
     background-color: rgb(70, 181, 200);
-    transition: .2;
+    transition: .2s;
 }
 
 nav ul li a img {
