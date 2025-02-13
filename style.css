@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kosugi&family=Kosugi+Maru&display=swap');
+
+@font-face {
+    font-family: "icons";
+    src: url("img/icon.ttf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Kosugi Maru", serif;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* 両端に配置 */
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+header h1 img {
+    height: 1em;
+    width: auto;
+    vertical-align: -0.1em;
+    /* text-bottomに変更してより正確に揃える */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 0.5rem;
+    background-color: gainsboro;
+}
+
+nav ul li a {
+    display: inline-block;
+    min-width: 120px;
+    min-height: 20px;
+    text-align: center;
+    padding: 10px;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+nav ul li a:hover {
+    display: inline-block;
+    min-width: 120px;
+    min-height: 20px;
+    text-align: center;
+    padding: 10px;
+    line-height: 20px;
+    box-sizing: border-box;
+    background-color: rgb(90, 230, 255);
+    transition: .5s;
+}
+
+nav ul li a img {
+    height: 20px;
+    /* line-heightと同じ高さに設定 */
+    width: auto;
+    /* アスペクト比を維持 */
+    vertical-align: -0.25em;
+    /* テキストと垂直方向の位置を揃える */
+}
+
+div.mobile {
+    font-family: "icons";
+    font-size: 20px;
+}
+
+.no-url {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 2rem;
+    flex: 1;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* スマホ向けのスタイル */
+@media screen and (max-width: 768px) {
+    header h1 a#apptext {
+        font-size: 0;
+        /* テキストを非表示に */
+        display: inline-block;
+        /* aタグを表示状態に */
+    }
+
+    header h1 a img#appicon {
+        height: 2em;
+        /* 画像サイズを調整 */
+        margin: 0;
+        /* 画像の余白を調整 */
+        display: inline-block;
+        /* 画像を表示 */
+        vertical-align: text-bottom;
+        /* 位置調整を維持 */
+    }
+}
+
+/* 520px以下の画面用のスタイル */
+@media screen and (max-width: 520px) {
+    nav ul li a#current {
+        display: none;
+    }
+    nav ul li div.pc {
+        display: none;
+    }
+
+    nav ul li a.no-url {
+        max-width: 40px;
+        min-width: 40px;
+    }
+
+    nav ul li div.mobile {
+        display: block;
+    }
+
+    nav ul li#currentLi{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 521px) {
+    nav ul li div.mobile {
+        display: none;
+    }
+}

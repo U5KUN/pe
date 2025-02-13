@@ -1,0 +1,7 @@
+.hidden {
+    display: none;
+}
+
+.note {
+    text-decoration-line: underline;
+}
