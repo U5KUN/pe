@@ -36,8 +36,8 @@
         </section>
         <section id="iOS/iPadOS" class="hidden">
             <h3>PCやMacをお持ちの場合は、そちらからこのページにアクセスしていただくと、PCやMacを使用してiPhone/iPadに脱獄ごっこ復活版をダウンロードしてインストールする方法をご覧になれます。</h3>
-            <!--hr>
-            <h3>エンタープライズ署名を使用してiOS/iPadに脱獄ごっこ復活版をダウンロードしてインストールする方法</h3>
+            <hr>
+            <h3>エンタープライズ署名を使用してiOS/iPadに脱獄ごっこ復活版をダウンロードしてインストールする方法(PC不要)</h3>
             <ol type="1">
                 <li>
                     <p><a
@@ -48,13 +48,48 @@
                     <p>インストールが完了したら、設定を開き、一般→VPNとデバイス管理の順にタップします。</p>
                 </li>
                 <li>
-                    <p><エンタープライズ署名>をタップし、信頼します。</p>
+                    <p>
+                        「Kotak Mahindra Bank Ltd」をタップし、信頼します。
+                    </p>
                 </li>
             </ol>
             <h4>これにてインストールは完了です。しかし、この方法では数時間〜数日で脱獄ごっこが開けなくなります。そうなる前に、以下の対策を行なってください。</h4>
             <ol type="1">
-                <li></li>
-            </ol-->
+                <li>
+                    <p><a rel="follow" target="_blank" href="https://my.nextdns.io/">NextDNS</a>にアクセスします。</p>
+                </li>
+                <li>
+                    <p>「新規登録」と書かれたボタンをタップし、自分のメールアドレス、パスワードを入力してアカウントを作成します。</p>
+                    <p class="note">注意: すでにアカウントを持っている場合は、「ログイン」をタップしてログインしてください。</p>
+                </li>
+                <li>
+                    <p>「セットアップ」や「セキュリティ」と書かれている部分を右にスクロールし、「拒否リスト」をタップします。</p>
+                </li>
+                <li>
+                    <p>拒否リストに、</p>
+                    <p class="copy"><textarea readonly cols="13" rows="1">ppq.apple.com</textarea><button>L</button></p>
+                    <p class="copy"><textarea readonly cols="14" rows="1">ocsp.apple.com</textarea><button>L</button>
+                    </p>
+                    <p class="copy"><textarea readonly cols="15" rows="1">ocsp2.apple.com</textarea><button>L</button>
+                    </p>
+                    <p class="copy"><textarea readonly cols="19"
+                            rows="1">www.ocsp.apple.com</textarea><button>L</button></p>
+                    <p class="copy"><textarea readonly cols="20"
+                            rows="1">www.ocsp2.apple.com</textarea><button>L</button></p>
+                    <p>の5つのドメインを追加します。</p>
+                </li>
+                <li>
+                    <p><a rel="follow" target="_blank" href="https://apple.nextdns.io/">Apple NextDNS</a>にアクセスし、「Download」をタップします。
+                    </p>
+                    <p>「このWebサイトは構成プロファイルをダウンロードしようとしています」と表示されたら、許可をタップします。</p>
+                </li>
+                <li>
+                    <p>設定を開き、「プロファイルがダウンロード済み」と表示されている部分をタップし、「インストール」をタップし、インストールします。
+                    </p>
+                    <p class="note">「プロファイルがダウンロード済み」が表示されていない場合は、一般→VPNとデバイス管理→NextDNSの順にタップし、インストールします。</p>
+                </li>
+            </ol>
+            <h4>これで対策は完了です。VPNを使用すると対策の効果がなくなるのでご注意ください。</h4>
             <div id="ts" class="hidden">
                 <hr>
                 <h3>TrollStoreを使用してiOS/iPadに脱獄ごっこ復活版をダウンロードしてインストールする方法</h3>
@@ -189,7 +224,8 @@
                     href="#refresh">7番</a>からやり直してください。</h4>
         </section>
         <section id="Android" class="hidden">
-            <p><a href="https://github.com/U5KUN/pe/releases/download/new/ProductName_v9.8.0.apk">APKをダウンロード</a>&nbsp;&nbsp;製作者:ましゅ
+            <p><a
+                    href="https://github.com/U5KUN/pe/releases/download/new/ProductName_v9.8.0.apk">APKをダウンロード</a>&nbsp;&nbsp;製作者:ましゅ
             </p>
             <p class="note">注意: ダウンロードしたファイルの拡張子がzipになっている場合は、apkに変更することでインストールできるようになります。</p>
             <p class="note">注意: 現在、Android版はiPhone/iPadとは一緒にプレイできません。</p>

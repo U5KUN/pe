@@ -31,6 +31,29 @@ os.innerText = detectedOS;
 showContent(detectedOS);
 
 // セレクトボックスの変更イベントを監視
-selectOS.addEventListener('change', (event) => {
-    showContent(event.target.value);
+selectOS.addEventListener('change', (e) => {
+    showContent(e.target.value);
+});
+
+document.querySelectorAll(".copy button").forEach((button) => {
+    button.addEventListener('click', (e) => {
+        // 親要素からテキストエリアを取得
+        const textArea = e.target.closest('.copy').querySelector('textarea');
+        // テキストエリアの内容をクリップボードにコピー
+        navigator.clipboard.writeText(textArea.value)
+            .then(() => {
+                // コピー成功時の処理（オプション）
+                button.textContent = 'I';
+                setTimeout(() => {
+                    button.textContent = 'L';
+                }, 2000);
+            })
+            .catch(err => {
+                console.error('コピーに失敗しました:', err);
+                button.textContent = 'A';
+                setTimeout(() => {
+                    button.textContent = 'L';
+                }, 2000);
+            });
+    });
 });
