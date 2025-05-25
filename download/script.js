@@ -2,7 +2,7 @@ const os = document.getElementById("os");
 const selectOS = document.getElementById("selectOS");
 const uap = new UAParser();
 let detectedOS = uap.getOS();
-if (detectedOS.name == "iOS" || detectedOS.name == "iPadOS"|| uap.getDevice().model == "iPad") {
+if (detectedOS.name == "iOS" || detectedOS.name == "iPadOS" || uap.getDevice().model == "iPad" || (uap.getDevice().type == "tablet" && detectedOS.name == "macOS")) {
     detectedOS.name = "iOS/iPadOS";
 }
 function showContent(OS) {
