@@ -1,11 +1,14 @@
-const os = document.getElementById("os");
+const params = new URLSearchParams(queryString);
+const osElement = document.getElementById("os");
 const selectOS = document.getElementById("selectOS");
+
 const uap = new UAParser();
 let detectedOS = uap.getOS();
 let device = uap.getDevice();
 if (detectedOS.name == "iOS" || detectedOS.name == "iPadOS" || (device.type == "tablet" && (detectedOS.name == "macOS" || device.vendor == "Apple" || device.model == "iPad"))) {
     detectedOS.name = "iOS/iPadOS";
 }
+
 function showContent(OS) {
     document.querySelectorAll("main section.hidden").forEach((section) => {
         section.style.display = "none";
@@ -13,8 +16,13 @@ function showContent(OS) {
     document.getElementById(OS).style.display = "block";
     selectOS.value = OS;
 }
-os.innerText = detectedOS.name;
-showContent(detectedOS.name);
+
+osElement.innerText = detectedOS.name;
+if(params.get("os")) {
+    showContent(params.get("os"));
+} else {
+    showContent(detectedOS.name);
+}
 
 selectOS.addEventListener('change', (e) => {
     showContent(e.target.value);
