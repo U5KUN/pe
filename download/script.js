@@ -1,4 +1,5 @@
-const params = new URLSearchParams();
+const params = new URLSearchParams(window.location.search);
+const OSParam = params.get("os");
 const osElement = document.getElementById("os");
 const selectOS = document.getElementById("selectOS");
 
@@ -18,8 +19,13 @@ function showContent(OS) {
 }
 
 osElement.innerText = detectedOS.name;
-if(params.get("os")) {
-    showContent(params.get("os"));
+
+if(OSParam) {
+    if (["iOS/iPadOS", "macOS", "Windows", "Android"].includes(OSParam)) {
+        showContent(OSParam);
+    } else {
+        showContent(detectedOS.name);
+    }
 } else {
     showContent(detectedOS.name);
 }
