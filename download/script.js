@@ -1,4 +1,4 @@
-const params = new URLSearchParams(queryString);
+const params = new URLSearchParams();
 const osElement = document.getElementById("os");
 const selectOS = document.getElementById("selectOS");
 
