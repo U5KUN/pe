@@ -1,0 +1,29 @@
+.hidden {
+    display: none;
+}
+
+.note {
+    text-decoration-line: underline;
+}
+
+.copy {
+    margin: 4px;
+}
+
+.copy textarea {
+    border: black solid 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    resize: none;
+}
+
+.copy button {
+    padding: 2px 6px 2px 6px;
+    margin: 0;
+    font-family: "icons";
+    border: none;
+    background-color: gainsboro;
+    font-size: 20px;
+    border-radius: 5px;
+    vertical-align: top;
+}

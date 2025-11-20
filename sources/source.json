@@ -1,0 +1,75 @@
+{
+    "name": "脱獄ごっこ復活版",
+    "subtitle": "あの脱獄ごっこが帰ってきた!",
+    "description": "シーズン1とシーズン9の脱獄ごっこが帰ってきたぜ!",
+    "iconURL": "https://raw.githubusercontent.com/u5kun/pe/main/img/appicon.png",
+    "headerURL": "https://raw.githubusercontent.com/u5kun/pe/main/img/appicon.png",
+    "website": "https://u5kun.github.io/pe/",
+    "tintColor": "#E60B00",
+    "featuredApps": [
+        "jp.uuum.playingescape.181",
+        "jp.uuum.playingescape.9160"
+    ],
+    "apps": [
+        {
+            "name": "脱獄ごっこv1.8.1",
+            "bundleIdentifier": "jp.uuum.playingescape.181",
+            "developerName": "UUUM",
+            "subtitle": "懐かしいシーズン1の脱獄ごっこ!",
+            "localizedDescription": "グリーンビレッジとホワイトタワーで遊べます。5vs5もあります。",
+            "iconURL": "https://raw.githubusercontent.com/u5kun/pe/main/img/appicon.png",
+            "tintColor": "#FDFF67",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "1.8.1",
+                    "date": "2025-10-27T19:12:00-00:00",
+                    "size": 54516703,
+                    "downloadURL": "https://github.com/U5KUN/pe/releases/download/new/playingescape_v1.8.1.ipa",
+                    "localizedDescription": "脱獄ごっこシーズン1",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            }
+        },
+        {
+            "name": "脱獄ごっこv9.16.0",
+            "bundleIdentifier": "jp.uuum.playingescape.9160",
+            "developerName": "UUUM",
+            "subtitle": "久しぶりに脱獄ごっこで遊ぼう!",
+            "localizedDescription": "ホワイトタワー,天国への階段,新脱獄,リバービレッジで遊べます。5vs5には2つのマップがあります。。",
+            "iconURL": "https://raw.githubusercontent.com/u5kun/pe/main/img/appicon.png",
+            "tintColor": "#94C1C7",
+            "screenshots": [],
+            "versions": [
+                {
+                    "version": "9.16.0",
+                    "date": "2025-11-15T00:00:00-00:00",
+                    "size": 323291042,
+                    "downloadURL": "https://github.com/U5KUN/pe/releases/download/new/ProductName_v9.16.0.ipa",
+                    "localizedDescription": "脱獄ごっこシーズン9",
+                    "minOSVersion": "12.0"
+                }
+            ],
+            "appPermissions": {
+                "entitlements": [],
+                "privacy": {}
+            }
+        }
+    ],
+    "news": [
+        {
+            "title": "脱獄ごっこ復活版のAltStoreソースが誕生!",
+            "identifier": "source_born",
+            "caption": "脱獄ごっこ復活版のAltStoreソースが誕生",
+            "date": "2025-11-20",
+            "tintColor": "#94C1C7",
+            "imageURL": "https://example.com/app_update_image.png",
+            "notify": false,
+            "appID": ""
+        }
+    ]
+}
