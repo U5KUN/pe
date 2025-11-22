@@ -98,7 +98,7 @@ footer {
 }
 
 /* スマホ向けのスタイル */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 898px) {
     header h1 a#apptext {
         font-size: 0;
         /* テキストを非表示に */
@@ -119,7 +119,7 @@ footer {
 }
 
 /* 520px以下の画面用のスタイル */
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 650px) {
     nav ul li a#current {
         display: none;
     }
@@ -141,7 +141,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 521px) {
+@media screen and (min-width: 651px) {
     nav ul li div.mobile {
         display: none;
     }
