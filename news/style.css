@@ -1,29 +1,27 @@
-.hidden {
-    display: none;
+#newsList ul {
+    list-style: none;
+    padding: 5px;
 }
 
-.note {
-    text-decoration-line: underline;
+#newsList ul li {
+    border-top: 1px black solid;
+    padding: 5px;
 }
 
-.copy {
-    margin: 4px;
+.newsTag {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 3px;
+    border: 1px solid #000;
+    margin-left: 3px;
 }
 
-.copy textarea {
-    border: black solid 1px;
-    border-radius: 5px;
-    font-size: 14px;
-    resize: none;
+.newsTag.new {
+    background-color: rgb(255, 225, 56);
+    border-color: rgb(225, 199, 55);
 }
 
-.copy button {
-    padding: 2px 6px 2px 6px;
-    margin: 0;
-    font-family: "icons";
-    border: none;
-    background-color: gainsboro;
-    font-size: 20px;
-    border-radius: 5px;
-    vertical-align: top;
+.newsTag.fix {
+    background-color: coral;
+    border-color: #ff7f50;
 }

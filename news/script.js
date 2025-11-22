@@ -56,7 +56,7 @@ async function displayNews() {
             "Android": '<img src="../img/g.svg">'
         };
 
-        var osLabel
+        var osLabel = "";
         if (news.system.includes("client")) {
             for (var j = 0; j < news.os.length; j++) {
                 osLabel += osTags[news.os[j]];
@@ -82,11 +82,13 @@ async function displayNews() {
         // HTMLを作成
         elem.innerHTML = '<div class="news-item">' +
             '<div class="news-header">' +
-            tagLabel + osLabel
             '<span class="news-date">' + formattedDate + '</span>' +
+            tagLabel + osLabel + 
             '</div>' +
             '<div class="news-title">' + linkContent + '</div>' +
             '</div>';
+        
+        console.log(elem)
 
         newsList.appendChild(elem);
     }
