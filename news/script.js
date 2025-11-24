@@ -87,8 +87,6 @@ async function displayNews() {
             '</div>' +
             '<div class="news-title">' + linkContent + '</div>' +
             '</div>';
-        
-        console.log(elem)
 
         newsList.appendChild(elem);
     }

@@ -1,6 +1,7 @@
 #newsList ul {
     list-style: none;
     padding: 5px;
+    border-bottom: 1px black solid;
 }
 
 #newsList ul li {
