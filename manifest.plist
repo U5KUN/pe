@@ -17,15 +17,15 @@
    <key>metadata</key>
    <dict>
     <key>bundle-identifier</key>
-    <string>jp.uuum.playingescape.9160</string>
+    <string>jp.uuum.playingescape.980</string>
     <key>bundle-version</key>
-    <string>9.16.0</string>
+    <string>9.8.0</string>
     <key>kind</key>
     <string>software</string>
     <key>platform-identifier</key>
     <string>com.apple.platform.iphoneos</string>
     <key>title</key>
-    <string>脱獄ごっこv9.16.0</string>
+    <string>脱獄ごっこv9.8.0</string>
    </dict>
   </dict>
  </array>
