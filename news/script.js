@@ -52,8 +52,8 @@ async function displayNews() {
         }
 
         var osTags = {
-            "iOS/iPadOS": '<img src="../img/a.svg">',
-            "Android": '<img src="../img/g.svg">'
+            "iOS/iPadOS": '<img src="../img/a.svg" height="20">',
+            "Android": '<img src="../img/g.svg" height="20">'
         };
 
         var osLabel = "";
