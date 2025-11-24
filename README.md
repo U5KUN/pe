@@ -11,5 +11,4 @@
 ## 注意事項
 
 - 非公式アプリのため、AppStore/GooglePlayからはインストールできません
-- Android版はiOS/iPadOS版とは一緒にプレイできません
 - インストール前に必ず[Discordサーバー](https://discord.gg/ryDT32jSSz)に参加してください
