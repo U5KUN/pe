@@ -5,7 +5,16 @@
         "system": ["web"],
         "os": ["iOS/iPadOS","Android"],
         "tags": ["new"],
-        "linktype": "url",
+        "linktype": "none",
         "url": "/2025/11/21.html"
+    },
+    {
+        "title": "シーズン9でiOS/iPadOSとAndroidが一緒に遊べるようになりました!",
+        "date": "2025-11-24",
+        "system": ["client"],
+        "os": ["iOS/iPadOS","Android"],
+        "tags": ["new"],
+        "linktype": "none",
+        "url": "/2025/11/24.html"
     }
 ]
