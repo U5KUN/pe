@@ -19,11 +19,11 @@
     },
     {
         "title": "「サーバーとの接続が切断されました。」と表示されて、遊べなくなってしまう問題を修正しました。",
-        "date": "2026-4-15",
+        "date": "2026-4-19",
         "system": ["server","client"],
         "os": ["iOS/iPadOS"],
         "tags": ["fix"],
         "linktype": "none",
-        "url": "/2026/4/15.html"
+        "url": "/2026/4/19.html"
     }
 ]
