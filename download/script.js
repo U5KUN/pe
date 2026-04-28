@@ -6,7 +6,7 @@ const selectOS = document.getElementById("selectOS");
 const uap = new UAParser();
 let detectedOS = uap.getOS();
 let device = uap.getDevice();
-if (detectedOS.name == "iOS" || detectedOS.name == "iPadOS" || (device.type == "tablet" && (detectedOS.name == "macOS" || device.vendor == "Apple" || device.model == "iPad"))) {
+if (detectedOS.name == "iOS" || detectedOS.name == "iPadOS" || ((navigator.maxTouchPoints > 0) && (detectedOS.name == "macOS" || device.vendor == "Apple" || device.model == "iPad"))) {
     detectedOS.name = "iOS/iPadOS";
 }
 
